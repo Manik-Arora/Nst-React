@@ -1,0 +1,77 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+}
+
+.logo {
+  width: 100px;
+  padding-left: 10px;
+}
+
+.nav-items > ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0px 20px;
+}
+
+.nav-items > ul > li {
+  padding: 10px;
+  margin: 10px;
+}
+
+.res-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.res-card {
+  background-color: aliceblue;
+  width: 200px;
+  height: 430px;
+  padding: 5px;
+  margin: 5px;
+}
+
+.res-card:hover {
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.res-logo {
+  width: 100%;
+  height: 38%;
+}
+
+.filter-btn {
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.shimmer-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.shimmer-card {
+  width: 200px;
+  height: 430px;
+  padding: 5px;
+  margin: 5px;
+  background-color: #f0f0f0;
+}
+
+.login {
+  padding: 2px 10px;
+  cursor: pointer;
+}
+
+.filter {
+  margin: 10px;
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
